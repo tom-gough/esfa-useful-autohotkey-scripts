@@ -1,4 +1,4 @@
-;----OUTPUT NEW VALID NHS NUMBER OR ULN (WIN+N)
+;----OUTPUT NEW VALID ULN (WIN+N)
 #N::
 outputNumber := GetRandomValidULN()
 SendInput, %outputNumber%
